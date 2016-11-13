@@ -1,0 +1,43 @@
+.relativeDiv {
+	position: relative;
+	margin-top: 0px;
+	margin-left: 0px;
+	padding: 0px;
+}
+.unnaturalCharacteristic {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 25%;
+	font-size: 8px;
+	font-weight: bold;
+	color: black;
+}
+#characteristics {
+	border: solid 2px #000000;
+	border-collapse: collapse;
+}
+.left, .right {
+	position: absolute;
+	top: -1px;
+	width: 50%;
+	height: 100%;
+	text-align: center;
+}
+.left {
+	left: -1px;
+	background-color: #000000;
+	color: #FFFFFF;
+}
+.right {
+	left: 50%;
+}
+#characteristics td,
+#characteristics th {
+	border: solid 1px #000000;
+	padding: 1px;
+	width: 55px;
+	height: 1.2em;
+	text-align: center;
+	vertical-align: center;
+}
