@@ -41,3 +41,7 @@
 	text-align: center;
 	vertical-align: center;
 }
+p {
+    width: 40em;
+    text-align: justify;
+}
